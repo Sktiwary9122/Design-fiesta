@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Jura:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Jura', sans-serif;
+}
+.wrapper{
+
+    background-color: #2e1b50;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+.container{
+    max-width: 1080px;
+    border: 3px solid white;
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin: 0 auto;
+}
+.container::before{
+    content: "";
+    max-width: 1080px;
+    display: flex;
+    position: absolute;
+    z-index: -10;
+    filter: blur(6px);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.container::after{
+    content: "";
+    max-width: 1080px;
+    display: flex;
+    position: absolute;
+    z-index: 10;
+}
+.left-wala{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    justify-content: space-around;
+}
+.title{
+    color: white;
+    font-family: Inter;
+    font-size: large;
+}
+.heading{
+    color: white;
+    font-size: 68px;
+    font-weight: 90;
+}
+.desc{
+    color: white;
+    font-size: 18px;
+    font-family: Inter;
+    opacity: 0.7;
+    font-weight: 155px;
+}
+.btn{
+    border: none;
+    max-width: 15rem;
+    background-color: #8642FF;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.right-wala{
+    display: flex;
+    flex-direction: column;
+}
+.right-wala img{
+    width: 500px;
+
+}
+.ship{
+    font-family: Jura;
+}
+.performance{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+.heading-performance{
+    text-align: center;
+    color: white;
+    letter-spacing: 6px;
+}
+.key{
+    font-family: Jura;
+    color: #D04EFE;
+    font-size: 22px;
+    font-stretch: expanded;
+}
+.k{
+    border: 2px solid white;
+}
+.dabba-wala{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 4rem;
+    overflow-x: hidden;
+}
+.dabba{
+    width: 500px;
+    border: 1px solid white;
+    margin-right: 12px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.other-products{
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8rem;
+}
+.other-title{
+    color: white;
+    font-weight: 90;
+    letter-spacing: 2px;
+}
+.shudh{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.top div , .top div img{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.other-products-image img{
+    border: 2px solid white;
+    padding: 8px;
+}
+.ladki{
+    border: 2px solid #D04EFE;
+    border-radius: 50%;
+}
+.other-products-image p{
+    color: white;
+}
+.bottom{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+}
+.bottom-card{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1.5px solid white;
+}
+.bottom-card img{
+    height: 150px;
+    width: 150px;
+    
+}
+.buy-now{
+    display: flex;
+    font-size: larger;
+    color: white;
+    background-color: #8642FF;
+    max-width: 150px;
+    padding: 8px;
+    text-align: center;
+}
+.b{
+    background-color:#8642FF;
+}
